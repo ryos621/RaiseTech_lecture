@@ -6,10 +6,10 @@
 ### EC2
 ![EC2](img/ap.png)
 
-#### サブネット（パブリックサブネット）
+#### EC2のサブネット（public-subnetの確認）
 ![ap_subnet](img/ap_publicsubnet_route.png)
 
-#### セキュリティグループ
+#### EC2のセキュリティグループ
 - インバウンド
   ![sg_ap_inbound](img/sg_ap_inbound.png)
 
@@ -18,11 +18,13 @@
 
 ### RDS
 ![RDS](img/db.png)
-#### サブネット（プライベートサブネット）
-![db_subnet1](img/db_privatesubnet_1_route.png)
-![db_subnet2](img/db_privatesubnet_2_route.png)
+#### RDSのサブネット（private-subnetの確認）
+- private-subnet-1
+  ![db_subnet1](img/db_privatesubnet_1_route.png)
+- private-subnet-2
+  ![db_subnet2](img/db_privatesubnet_2_route.png)
 
-#### セキュリティグループ
+#### RDSのセキュリティグループ
 - インバウンド
   ![sg_db_inbound](img/sg_db_inbound.png)
 
