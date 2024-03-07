@@ -13,7 +13,7 @@
 ![bin/dev](img/bin_dev.png)
 ![puma_web](img/puma_web.png)
 
-## 1-2.Webサーバアプリ(Nginx)とAPサーバアプリ(Unicorn)に分割した環境でのアプ動作環境構築
+## 1-2.Webサーバアプリ(Nginx)とAPサーバアプリ(Unicorn)に分割した環境でのアプリ動作環境構築
 ### ・Nginxの設定
 #### /etc/nginx/nginx.conf
 ![nginx_config](img/nginx_config.png)
