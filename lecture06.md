@@ -15,7 +15,7 @@
 ### ・AWSリージョン(ap-northeast-1)・・・どのリージョンで行われた操作か
 
 ## 2.CloudWatch・Amazon SNSによる、AWSサービスの異常検知の通知設定
-### CloudWatchアラームを使って、ALBのアラームを設定し、異常を検知した時にメール通知が行われるようにする。<br>動作確認については、<a href="https://github.com/ryos621/RaiseTech_lecture/blob/main/lecture05.md">第5回の課題</a>で作成した環境にて行う。
+### CloudWatchアラームを使ってALBのアラームを設定し、異常検知時にメール通知が行われるようにする。<br>動作確認については、<a href="https://github.com/ryos621/RaiseTech_lecture/blob/main/lecture05.md">第5回の課題</a>で作成した環境にて行う。
 ### 2-1.Amazon SNSの設定
 ### (1)SNSトピックの作成
 ![create_sns_topic](img/create_sns_topic.png)
@@ -31,7 +31,7 @@
 ### 平均ヘルスチェック失敗数が1以上の場合
 ![cwalarm_metrics-conditions](img/cwalarm_metrics-conditions.png)
 ### (2)アクションの設定
-### 状態が「OK」または「アラーム状態」に遷移した時に、2-1で作成したSNSトピック(エンドポイント:ryos.6210@gmail.com)に通知を送信
+### 状態が「OK」または「アラーム状態」に遷移した時に、<br>2-1で作成したSNSトピック(エンドポイント:ryos.6210@gmail.com)に通知を送信
 ![cwalram_action](img/cwalarm_action.png)
 ### (3)設定完了
 ![created_cwalarm](img/created_cwalarm.png)
