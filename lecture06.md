@@ -61,7 +61,14 @@
 ### <a href="https://github.com/ryos621/RaiseTech_lecture/blob/main/lecture05.md">第5回の課題</a>までに作成したリソースの見積を作成
 ### <a href="https://calculator.aws/#/estimate?id=2c0a28c679a09696b0f8360eb9b34636d20a7d4e">見積リンク</a>
 ## 4.Cost Explorerによる、AWSサービス利用料の確認
+### (1)先月(2024年2月)のEC2利用料金の確認
 ### ・日付範囲:先月(2024/02/01-2024/02/29)
-### ・サービス:EC2インスタンス(Elastic Compute CLoud - Compute)
-### でフィルタリングすることで、先月のEC2インスタンス利用料金を確認
-![cost_ec2](img/cost_ec2.png)
+### ・サービス:EC2インスタンス(Elastic Compute CLoud - Compute)、EC2 - Other
+### でフィルタリングすることで、先月のEC2利用料金を確認
+![fee_ec2_202402](img/fee_ec2_202402.png)
+### (2)無料枠で収まっているかを確認
+### 請求とコスト管理 > 請求書 より、EC2の利用料金の詳細を確認したところ、<br>内訳にfree tierがないため、全て有料枠であることがわかる。
+### 2024年2月
+![fee_ec2_202402_detail](img/fee_ec2_202402_detail.png)
+### (参考)2023年4月
+![fee_ec2_202304_detail](img/fee_ec2_202304_detail.png)
